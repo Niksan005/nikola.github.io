@@ -1,3 +1,56 @@
-table{
-    background-color: gray;
+
+div{
+    color: white;
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+}
+hr{
+    
+    border-color: #326998;
+}
+.container,div {
+    border: solid transparent 2px;
+    background: #064D84;
+}
+
+.h2-title h2 {
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    color: #326998;
+    text-transform: uppercase;
+}
+
+.h2-title hr {
+    margin: 15px 0;
+    border-color: #326998;
+}
+.h2-title.right h2 {
+    float: right;
+}
+
+.like-btn{
+    
+    text-align: center;
+    color: white;
+}
+
+.like-btn h3 {
+    text-align: center;
+    text-transform: uppercase;
+    border: solid white 2px;
+    font-size: 14px;
+    display: inline;
+    padding: 3px;
+
+}
+
+.row.exp>div{
+    text-align: center;
+}
+
+.row.img div{
+    text-align: center;
 }
